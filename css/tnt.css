@@ -1,0 +1,66 @@
+.show-grid [class*="span"].current-week {
+    background-color: #FFEEEE;
+}
+
+.show-grid [class*="span"].current-day {
+    background-color: #EEEEFF;
+}
+
+.show-grid {
+    background-color: #EEEEEE;
+}
+
+.show-grid [class*="span"] {
+    border-radius: 3px 3px 3px 3px;
+    min-height: 100px;
+    text-align: left;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+}
+
+.fin, .pr, .event, .deadline {
+    border-radius: 3px 3px 3px 3px;
+    line-height: 12px;
+    min-height: 12px;
+    text-align: left;
+    margin: 3px;
+    padding: 1px;
+}
+
+.fin {
+    font-weight: bold;
+}
+
+.pr {
+    background-color: #EECCFF;
+    border: 1px solid #DDCCEE;
+}
+
+.event {
+    background-color: #DDDDFF;
+    border: 1px solid #BBBBCC;
+}
+
+.deadline {
+    background-color: #FF4444;
+    border: 1px solid #FF3333;
+}
+
+[class*="month"] {
+    background-color: #EEEEEE;
+    width: 900px;
+    min-width: 900px;
+}
+
+.day {
+    background-color: #FFFFFF;
+    width: 120px;
+}
+
+.date {
+    width: 98%;
+    text-align: right;
+    margin-top: 2px;
+    line-height: 12px;
+    margin-bottom: 10px;
+}

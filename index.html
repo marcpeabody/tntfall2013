@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/tnt.css" rel="stylesheet" media="screen">
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="./index.html" class="brand">TNT</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="">
+                <a href="#">Coaches</a>
+              </li>
+              <li class="">
+                <a href="#">Full Training Schedule</a>
+              </li>
+              <li class="">
+                <a href="#">Half Training Schedule</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="container calendar">
+<h1>June</h1>
+<div class="month">
+  <div class="row show-grid">
+    <div class="span1 offset6"><div class="date">1</div>Saturday</div>
+  </div>
+  <div class="row show-grid">
+    <div class="span1"><div class="date">2</div>Sunday</div>
+    <div class="span1"><div class="date">3</div>Monday</div>
+    <div class="span1"><div class="date">4</div>Tuesday</div>
+    <div class="span1"><div class="date">5</div>Wednesday</div>
+    <div class="span1"><div class="date">6</div>Thursday</div>
+    <div class="span1"><div class="date">7</div>Friday</div>
+    <div class="span1"><div class="date">8</div>Saturday</div>
+  </div>
+  <div class="row show-grid">
+    <div class="span1"><div class="date">9</div></div>
+    <div class="span1"><div class="date">10</div></div>
+    <div class="span1"><div class="date">11</div></div>
+    <div class="span1"><div class="date">12</div></div>
+    <div class="span1"><div class="date">13</div></div>
+    <div class="span1"><div class="date">14</div></div>
+    <div class="span1"><div class="date">15</div></div>
+  </div>
+</div>
+<h1>July</h1>
+<div class="month">
+  <div class="row show-grid">
+    <div class="span1 offset6"><div class="date">1</div></div>
+  </div>
+  <div class="row show-grid">
+    <div class="span1"><div class="date">1</div></div>
+    <div class="span1"><div class="date">2</div></div>
+    <div class="span1"><div class="date">3</div></div>
+    <div class="span1"><div class="date">4</div></div>
+    <div class="span1"><div class="date">5</div>
+        <div class="half fin">5 miles</div>
+        <div class="half pr">PR: including 5x800m</div>
+        <div class="full fin">20 miles</div>
+        <div class="full pr">PR: including 30x800m</div>
+        <div class="deadline">commitment due</div>
+        <div class="event">Inspiration Dinner 9:00pm</div>
+    </div>
+    <div class="span1"><div class="date">6</div></div>
+    <div class="span1"><div class="date">7</div></div>
+  </div>
+  <div class="row show-grid">
+    <div class="span1"><div class="date">1</div></div>
+    <div class="span1"><div class="date">2</div></div>
+    <div class="span1"><div class="date">3</div></div>
+    <div class="span1"><div class="date">4</div></div>
+    <div class="span1"><div class="date">5</div></div>
+    <div class="span1"><div class="date">6</div></div>
+    <div class="span1"><div class="date">7</div></div>
+  </div>
+</div>
+</div>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/tnt-schedules.js"></script>
+    <script src="js/schedule-builder.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            buildCalendarFromSchedule(window.TNTSchedule.FullMarathon);
+            $('html, body').animate({
+                scrollTop: ($(".current-day:first").offset().top - 100)
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
