@@ -1,3 +1,7 @@
+.calendar {
+    margin-top: 50px;
+}
+
 .show-grid [class*="span"].current-week {
     background-color: #FFEEEE;
 }

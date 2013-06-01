@@ -5,7 +5,8 @@ function buildCalendarFromSchedule(schedule) {
         iMonth, iMonthDiv, iWeekDiv, iDate, iDateDiv, iScheduleKey,
         endDay = new Date(2013, 9, 20), // 9,20 is Oct 20
         dayLength = (24 * 60 * 60 * 1000),
-        calendarDiv = $(".calendar");
+        calendarDiv = $(".calendar"),
+        monthNames = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
 
     function nextDay(currentDay) {
         return new Date(currentDay.getTime() + dayLength);
@@ -61,7 +62,7 @@ function buildCalendarFromSchedule(schedule) {
         iScheduleKey = "" + iMonth + "/" + iDate;
         iMonthDiv = $(".month"+iMonth);
         if (iMonthDiv.length === 0) {
-            iMonthDiv = $("<div class='month" + iMonth + "'>month "+iDay.toDateString()+"</div>");
+            iMonthDiv = $("<div class='month" + iMonth + "'><h1>" + monthNames[iDay.getMonth()] + "</h1></div>");
             calendarDiv.append(iMonthDiv);
         }
 
