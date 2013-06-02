@@ -19,7 +19,7 @@ h1 {
 
 .show-grid [class*="span"] {
     border-radius: 3px 3px 3px 3px;
-    min-height: 100px;
+    min-height: 120px;
     text-align: left;
     background-color: #FFFFFF;
     border: 1px solid #DDDDDD;

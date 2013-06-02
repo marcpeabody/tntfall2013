@@ -50,7 +50,6 @@ function buildCalendarFromSchedule(schedule) {
         var firstDayOfSchedule = (day == startDay),
             firstOfMonth = (day.getDate() === 1),
             isSunday = (day.getDay() === 0);
-        console.log(day + firstDayOfSchedule + firstOfMonth + isSunday);
         return firstDayOfSchedule || firstOfMonth || isSunday;
     }
 
@@ -67,7 +66,6 @@ function buildCalendarFromSchedule(schedule) {
         }
 
         if (isFirstDateOfWeek(iDay)) {
-            console.log("first "+ iDay.toDateString());
             iWeekDiv = $('<div class="row show-grid"></div>');
             iMonthDiv.append(iWeekDiv);
         } else {
@@ -78,7 +76,7 @@ function buildCalendarFromSchedule(schedule) {
 
         if (itemsScheduled) {
             for (var key in itemsScheduled) {
-                iEvent = $("<div class='" + key + "'></div>");
+                iEvent = $("<div class='scheduledItem " + key + "'></div>");
                 iDateDiv.append(iEvent);
                 if (key === "pr") {
                     iEvent.append("<i class='icon-time'></i> ");
@@ -88,7 +86,46 @@ function buildCalendarFromSchedule(schedule) {
         }
 
         iWeekDiv.append(iDateDiv);
-        console.log(iDay);
         iDay = nextDay(iDay);
     }
+}
+
+function scrollToCurrentWeek() {
+    var firstDay;
+    firstDay = $('.current-day:first');
+    if (firstDay.length) {
+        $('html, body').animate({
+            scrollTop: (firstDay.offset().top - 200)
+        }, 1000);
+    }
+}
+function scanForPhrases() {
+    // scan for phrases
+    $('.scheduledItem').each(function(i, item){
+        var text = $(item).html();
+        if (/with \d* hills/.exec(text)) {
+            $(item).html("<a href='trainingDetails.html#hills'>" + text + "</a>")
+        }
+        if (/with \d*x800m/.exec(text)) {
+            $(item).html("<a href='trainingDetails.html#intervals'>" + text + "</a>")
+        }
+        if (/\d* at tempo/.exec(text)) {
+            $(item).html("<a href='trainingDetails.html#tempo'>" + text + "</a>")
+        }
+        if (/at race pace/.exec(text)) {
+            $(item).html("<a href='trainingDetails.html#racepace'>" + text + "</a>")
+        }
+        if (/EZ/.exec(text)) {
+            $(item).html("<a href='trainingDetails.html#easy'>" + text + "</a>")
+        }
+        if (/Sharon Woods/.exec(text)) {
+            $(item).html("<a href='locations.html#sharon'>" + text + "</a>")
+        }
+        if (/Antrim Deck/.exec(text)) {
+            $(item).html("<a href='locations.html#antrim'>" + text + "</a>")
+        }
+        if (/Glacier Ridge/.exec(text)) {
+            $(item).html("<a href='locations.html#glacier'>" + text + "</a>")
+        }
+    });
 }

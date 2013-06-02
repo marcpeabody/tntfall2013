@@ -47,9 +47,8 @@
     <script type="text/javascript">
         $(document).ready(function() {
             buildCalendarFromSchedule(window.TNTSchedule.FullMarathon);
-            $('html, body').animate({
-                scrollTop: ($(".current-day:first").offset().top - 200)
-            }, 1000);
+            scrollToCurrentWeek();
+            scanForPhrases();
         });
     </script>
 </body>
