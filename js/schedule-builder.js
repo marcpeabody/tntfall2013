@@ -90,12 +90,5 @@ function buildCalendarFromSchedule(schedule) {
         iWeekDiv.append(iDateDiv);
         console.log(iDay);
         iDay = nextDay(iDay);
-
-        console.log("test");
-        $('body').click(function(){
-            $('html, body').animate({
-                scrollTop: 500// ($(".current-day:first").offset().top - 100)
-            }, 2000);
-        });
     }
 }

@@ -52,8 +52,8 @@
 
 [class*="month"] {
     background-color: #EEEEEE;
-    width: 900px;
-    min-width: 900px;
+    width: 906px;
+    min-width: 906px;
 }
 
 .day {
@@ -67,4 +67,23 @@
     margin-top: 2px;
     line-height: 12px;
     margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    [class*="month"] {
+        background-color: #EEEEEE;
+        min-width: 460px;
+        width: 460px;
+    }
+
+    .span7, .span6, .span5, .span4, .span3, .span2, .span1 {
+      width: 456px;
+    }
+    .offset6, .offset5, .offset4, .offset3, .offset2, .offset1 {
+      margin-left: 0px;
+    }
+
+    .row {
+        margin-bottom: 10px;
+    }
 }
