@@ -160,9 +160,9 @@ var setupTNTSchedules = function () {
         // Week 17
         "10/6": {fin: rest},
         "10/7": {fin: crosstrain},
-        "10/8": {fin: "8 miles", pr: "with 6 hills"},
+        "10/8": {fin: "30 minutes", pr: "8 at tempo"},
         "10/9": {fin: crosstrain},
-        "10/10": {fin: "30 minutes", pr: "8 at tempo"},
+        "10/10": {fin: "4 miles", pr: "at race pace"},
         "10/11": {fin: rest, pr: "4 miles EZ"},
         "10/12": {fin: "8 miles<br/> Hilly Place 8:00am"},
 
