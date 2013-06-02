@@ -1,5 +1,5 @@
 function buildCalendarFromSchedule(schedule) {
-    var today = new Date(2013, 5, 17),//temp
+    var today = new Date(),
         startDay = new Date(2013, 5, 15), // 5,15 is July 15
         iDay = startDay,
         iMonth, iMonthDiv, iWeekDiv, iDate, iDateDiv, iScheduleKey,

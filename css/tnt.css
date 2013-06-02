@@ -1,3 +1,6 @@
+h1 {
+    color: #9362AD;
+}
 .calendar {
     margin-top: 50px;
 }
@@ -71,7 +74,6 @@
 
 @media (max-width: 767px) {
     [class*="month"] {
-        background-color: #EEEEEE;
         min-width: 460px;
         width: 460px;
     }
