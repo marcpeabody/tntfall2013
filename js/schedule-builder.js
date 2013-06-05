@@ -103,10 +103,16 @@ function scanForPhrases() {
     // scan for phrases
     $('.scheduledItem').each(function(i, item){
         var text = $(item).html();
+        if (/Cross Train Aerobic/.exec(text)) {
+            $(item).html("<a href='trainingDetails.html#aerobic'>" + text + "</a>")
+        }
+        if (/Cross Train Strength/.exec(text)) {
+            $(item).html("<a href='trainingDetails.html#strength'>" + text + "</a>")
+        }
         if (/with \d* hills/.exec(text)) {
             $(item).html("<a href='trainingDetails.html#hills'>" + text + "</a>")
         }
-        if (/with \d*x800m/.exec(text)) {
+        if (/with \d*x\d00m/.exec(text)) {
             $(item).html("<a href='trainingDetails.html#intervals'>" + text + "</a>")
         }
         if (/\d* at tempo/.exec(text)) {
