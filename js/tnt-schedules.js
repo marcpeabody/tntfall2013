@@ -157,7 +157,7 @@ var setupTNTSchedules = function () {
         "8/12": {fin: "30 minutes EZ"},
         "8/13": {fin: "4 miles", pr: "with 5x400m"},
         "8/14": {fin: ctStrength, pr: "and 2 miles"},
-        "8/15": {fin: "5 miles", pr: "at race pace"},
+        "8/15": {fin: "5 miles", pr: "4 at race pace"},
         "8/16": {fin: rest},
         "8/17": {fin: "8 miles"},
 
@@ -166,7 +166,7 @@ var setupTNTSchedules = function () {
         "8/19": {fin: "30 minutes EZ"},
         "8/20": {fin: "4 miles", pr: "with 4 hills"},
         "8/21": {fin: ctStrength, pr: "and 2 miles"},
-        "8/22": {fin: "5 miles", pr: "at race pace"},
+        "8/22": {fin: "5 miles", pr: "4 at race pace"},
         "8/23": {fin: rest},
         "8/24": {fin: "2 miles EZ<br/>Race Tomorrow!"},
         "8/25": {fin: "Quarter Marathon Trial", event: "Emerald City Half"},
@@ -175,7 +175,7 @@ var setupTNTSchedules = function () {
         "8/26": {fin: ctOptAero},
         "8/27": {fin: "45 minutes", pr: "9 at tempo"},
         "8/28": {fin: ctStrength, pr: "and 3 miles"},
-        "8/29": {fin: "6 miles", pr: "at race pace"},
+        "8/29": {fin: "6 miles", pr: "4 at race pace"},
         "8/30": {fin: rest},
         "8/31": {fin: "8 miles"},
 
@@ -202,7 +202,7 @@ var setupTNTSchedules = function () {
         "9/16": {fin: "30 minutes EZ"},
         "9/17": {fin: "45 minutes", pr: "10 at tempo"},
         "9/18": {fin: ctStrength, pr: "and 3 miles"},
-        "9/19": {fin: "5 miles", pr: "at race pace"},
+        "9/19": {fin: "5 miles", pr: "all at race pace"},
         "9/20": {fin: rest},
         "9/21": {fin: "10 miles"},
 
@@ -229,7 +229,7 @@ var setupTNTSchedules = function () {
         "10/7": {fin: "30 minutes EZ"},
         "10/8": {fin: "30 minutes", pr: "8 at tempo"},
         "10/9": {fin: ctStrength, pr: "and 3 miles"},
-        "10/10": {fin: "4 miles", pr: "at race pace"},
+        "10/10": {fin: "4 miles", pr: "all at race pace"},
         "10/11": {fin: rest},
         "10/12": {fin: "8 miles"},
 
