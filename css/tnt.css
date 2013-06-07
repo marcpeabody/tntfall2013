@@ -89,3 +89,33 @@ h1 {
         margin-bottom: 10px;
     }
 }
+
+@media print {
+.page-break { display: block; page-break-before: always; }
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+    display: none;
+}
+.span1 {
+  width: 124px;
+}
+.offset6 {
+  margin-left: 760px;
+}
+.offset5 {
+  margin-left: 638px;
+}
+.offset4 {
+  margin-left: 507px;
+}
+.offset3 {
+  margin-left: 378px;
+}
+.offset2 {
+  margin-left: 254px;
+}
+.offset1 {
+  margin-left: 127px;
+}
+}

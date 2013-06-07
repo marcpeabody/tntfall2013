@@ -61,7 +61,10 @@ function buildCalendarFromSchedule(schedule) {
         iScheduleKey = "" + iMonth + "/" + iDate;
         iMonthDiv = $(".month"+iMonth);
         if (iMonthDiv.length === 0) {
-            iMonthDiv = $("<div class='month" + iMonth + "'><h1>" + monthNames[iDay.getMonth()] + "</h1></div>");
+            if ($('.calendar-month').length) {
+                calendarDiv.append("<div class='page-break'/>");
+            }
+            iMonthDiv = $("<div class='month" + iMonth + " calendar-month'><h1>" + monthNames[iDay.getMonth()] + "</h1></div>");
             calendarDiv.append(iMonthDiv);
         }
 
