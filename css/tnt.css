@@ -118,4 +118,7 @@ h1 {
 .offset1 {
   margin-left: 127px;
 }
+a[href]:after {
+  content: none;
+}
 }

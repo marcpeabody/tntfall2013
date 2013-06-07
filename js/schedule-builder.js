@@ -82,7 +82,7 @@ function buildCalendarFromSchedule(schedule) {
                 iEvent = $("<div class='scheduledItem " + key + "'></div>");
                 iDateDiv.append(iEvent);
                 if (key === "pr") {
-                    iEvent.append("<i class='icon-time'></i> ");
+                    iEvent.append("PR: ");
                 }
                 iEvent.append(itemsScheduled[key]);
             }
