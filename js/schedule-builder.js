@@ -6,6 +6,8 @@ function buildCalendarFromSchedule(schedule) {
         endDay = new Date(2013, 9, 20), // 9,20 is Oct 20
         dayLength = (24 * 60 * 60 * 1000),
         calendarDiv = $(".calendar"),
+        dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        dayHTML = "",
         monthNames = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
 
     function nextDay(currentDay) {
@@ -53,6 +55,11 @@ function buildCalendarFromSchedule(schedule) {
         return firstDayOfSchedule || firstOfMonth || isSunday;
     }
 
+    daysHTML = '<div class="row show-grid">';
+    for (var key in dayNames) {
+        daysHTML += "<div class='span1 dayname'>" + dayNames[key] + "</div>";
+    }
+    daysHTML += '</div>';
 
     while (iDay.getMonth() < endDay.getMonth() ||
             (iDay.getMonth() == endDay.getMonth() && iDay.getDate() <= endDay.getDate())) {
@@ -65,6 +72,7 @@ function buildCalendarFromSchedule(schedule) {
                 calendarDiv.append("<div class='page-break'/>");
             }
             iMonthDiv = $("<div class='month" + iMonth + " calendar-month'><h1>" + monthNames[iDay.getMonth()] + "</h1></div>");
+            iMonthDiv.append(daysHTML);
             calendarDiv.append(iMonthDiv);
         }
 

@@ -24,6 +24,10 @@ h1 {
     background-color: #FFFFFF;
     border: 1px solid #DDDDDD;
 }
+.show-grid [class*="span"].dayname {
+    min-height: 20px;
+    text-align: center;
+}
 
 .fin, .pr, .event, .deadline {
     border-radius: 3px 3px 3px 3px;
