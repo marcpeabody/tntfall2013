@@ -80,7 +80,7 @@ var setupTNTSchedules = function () {
     };
 
     TNTSchedule.HalfMarathon = {
-        "6/22": {event: "Group Run<br/> 2-4 miles"},
+        "6/15": {fin: "Group 2-4 miles"},
         // Week 1
         "6/16": {fin: ctOptAero},
         "6/17": {fin: "3 miles EZ"},
@@ -246,7 +246,7 @@ var setupTNTSchedules = function () {
     };
 
     TNTSchedule.FullMarathon = {
-        "6/22": {event: "Group Run<br/> 4 miles"},
+        "6/15": {fin: "Group 4 miles"},
 
         // Week 1
         "6/16": {fin: ctOptAero},
