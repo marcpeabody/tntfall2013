@@ -144,5 +144,8 @@ function scanForPhrases() {
         if (/Glacier Ridge/.exec(text)) {
             $(item).html("<a href='locations.html#glacier'>" + text + "</a>")
         }
+        if (/Road Runner/.exec(text)) {
+            $(item).html("<a href='locations.html#roadrunner'>" + text + "</a>")
+        }
     });
 }
