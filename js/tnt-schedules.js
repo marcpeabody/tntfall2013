@@ -20,6 +20,8 @@ var setupTNTSchedules = function () {
     TNTSchedule.CommonEvents = {
         "7/3": {event: "Road Runner Sports Gear and Nutrition Clinic 6-8pm"},
 
+        "7/4": {fin: "5K (3.1 miles)", event: "Colonial Hills 5K or Columbus Firecracker 5K"},
+
         "6/15": {deadline: "Season Kickoff<br/> Park of Roses 9:00am"},
         "6/22": {event: "Group Run<br/> Antrim Deck 8:00am"}, // 1
         "6/29": {event: "Group Run<br/> Antrim Deck 8:00am"}, // 2
@@ -104,7 +106,6 @@ var setupTNTSchedules = function () {
         "7/1": {fin: "3 miles EZ"},
         "7/2": {fin: "30 minutes", pr: "5 at tempo"},
         "7/3": {fin: ctStrength, pr: "and 2 miles"},
-        "7/4": {fin: "5K (3.1 miles)", event: "Colonial Hills 5K or Columbus Firecracker 5K"},
         "7/5": {fin: rest},
         "7/6": {fin: "4 miles"},
 
@@ -271,7 +272,6 @@ var setupTNTSchedules = function () {
         "7/1": {fin: "3 miles EZ"},
         "7/2": {fin: "30 minutes", pr: "5 at tempo"},
         "7/3": {fin: ctStrength, pr: "and 3 miles"},
-        "7/4": {fin: "3 miles", pr: "all at race pace", event: "Colonial Hills 5K"},
         "7/5": {fin: rest},
         "7/6": {fin: "10 miles"},
 
