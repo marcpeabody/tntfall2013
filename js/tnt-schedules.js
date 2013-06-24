@@ -19,7 +19,7 @@ var setupTNTSchedules = function () {
 
     TNTSchedule.CommonEvents = {
 
-        "7/4": {fin: "5K (3.1 miles)", event: "Colonial Hills 5K or Columbus Firecracker 5K"},
+        "7/4": {fin: "5K (3.1 miles)", event: "Pick a 5K race for fun!"},
 
         "6/15": {deadline: "Season Kickoff<br/> Park of Roses 9:00am"},
         "6/22": {event: "Group Run<br/> Antrim Deck 8:00am"}, // 1

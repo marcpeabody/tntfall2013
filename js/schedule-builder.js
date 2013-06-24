@@ -147,5 +147,8 @@ function scanForPhrases() {
         if (/Road Runner/.exec(text)) {
             $(item).html("<a href='locations.html#roadrunner'>" + text + "</a>")
         }
+        if (/5K race for fun/.exec(text)) {
+            $(item).html("<a href='5k.html'>" + text + "</a>")
+        }
     });
 }
