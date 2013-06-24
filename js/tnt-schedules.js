@@ -18,19 +18,18 @@ var setupTNTSchedules = function () {
     };
 
     TNTSchedule.CommonEvents = {
-        "7/3": {event: "Road Runner Sports Gear and Nutrition Clinic 6-8pm"},
 
         "7/4": {fin: "5K (3.1 miles)", event: "Colonial Hills 5K or Columbus Firecracker 5K"},
 
         "6/15": {deadline: "Season Kickoff<br/> Park of Roses 9:00am"},
         "6/22": {event: "Group Run<br/> Antrim Deck 8:00am"}, // 1
         "6/29": {event: "Group Run<br/> Antrim Deck 8:00am"}, // 2
-        "7/6": {event: "Group Run<br/> Sharon Woods 8:00am"}, //3
-        "7/13": {event: "Group Run<br/> Antrim Deck 8:00am"}, // 4
+        "7/6": {event: "Group Run<br/> Antrim Deck 8:00am"}, //3
+        "7/13": {event: "Group Run<br/> Sharon Woods 8:00am"}, // 4
         "7/20": {event: "Group Run<br/> Antrim Deck 8:00am"}, // 5
         "7/27": {event: "Group Run<br/> Sharon Woods 8:00am"}, // 6
         "8/3": {event: "Group Run<br/> Antrim Deck 7:00am"}, // 7
-        "8/10": {event: "Group Run<br/> Antrim Deck 7:00am"}, // 8
+        "8/10": {event: "Group Run<br/> Sharon Woods 7:00am"}, // 8
         "8/17": {event: "Group Run<br/> Glacier Ridge 7:00am"}, // 9
         "8/25": {event: "Emerald City Quarter and Half Trial Race"}, // 10
         "8/31": {event: "Group Run<br/> Antrim Deck 8:00am"}, // 11
