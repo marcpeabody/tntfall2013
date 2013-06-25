@@ -106,7 +106,7 @@ function scrollToCurrentWeek() {
     firstDay = $('.current-day:first');
     if (firstDay.length) {
         $('html, body').animate({
-            scrollTop: (firstDay.offset().top - 200)
+            scrollTop: (firstDay.offset().top - 100)
         }, 1000);
     }
 }
@@ -143,6 +143,9 @@ function scanForPhrases() {
         }
         if (/Glacier Ridge/.exec(text)) {
             $(item).html("<a href='locations.html#glacier'>" + text + "</a>")
+        }
+        if (/Park of Roses/.exec(text)) {
+            $(item).html("<a href='locations.html#parkofroses'>" + text + "</a>")
         }
         if (/Road Runner/.exec(text)) {
             $(item).html("<a href='locations.html#roadrunner'>" + text + "</a>")
