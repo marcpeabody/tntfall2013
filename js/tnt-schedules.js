@@ -20,6 +20,7 @@ var setupTNTSchedules = function () {
     TNTSchedule.CommonEvents = {
 
         "7/4": {fin: "5K (3.1 miles)", event: "Pick a 5K race for fun!"},
+        "7/10": {event: "Road Runner Gear Clinic 6-8pm"},
 
         "6/15": {deadline: "Season Kickoff<br/> Park of Roses 9:00am"},
         "6/22": {event: "Group Run<br/> Antrim Deck 8:00am"}, // 1
