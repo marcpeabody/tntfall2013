@@ -33,13 +33,13 @@ var setupTNTSchedules = function () {
         "8/10": {event: "Group Run<br/> Sharon Woods 7:00am"}, // 8
         "8/17": {event: "Group Run<br/> Glacier Ridge 7:00am"}, // 9
         "8/25": {event: "Emerald City Quarter and Half Trial Race"}, // 10
-        "8/31": {event: "Group Run<br/> Antrim Deck 8:00am"}, // 11
-        "9/7": {event: "Group Run<br/> Antrim Deck 8:00am"}, // 12
-        "9/14": {event: "Group Run<br/> Antrim Deck 8:00am"}, // 13
-        "9/21": {event: "Group Run<br/> Sharon Woods 8:00am"}, // 14
-        "9/28": {event: "Group Run<br/> Antrim Deck 8:00am"}, // 15
-        "10/5": {event: "Group Run<br/> Antrim Deck 8:00am"}, // 16
-        "10/12": {event: "Group Run<br/> Antrim Deck 8:00am"}, // 17
+        "8/31": {event: "Group Run<br/> Antrim Deck 7:00am"}, // 11
+        "9/7": {event: "Group Run<br/> Antrim Deck 7:00am"}, // 12
+        "9/14": {event: "Group Run<br/> Antrim Deck 7:00am"}, // 13
+        "9/21": {event: "Group Run<br/> Sharon Woods 7:00am"}, // 14
+        "9/28": {event: "Group Run<br/> Antrim Deck 7:00am"}, // 15
+        "10/5": {event: "Group Run<br/> Antrim Deck 7:00am"}, // 16
+        "10/12": {event: "Group Run<br/> Antrim Deck 7:00am"}, // 17
         "10/20": {event: "Columbus Half and Full Marathon"}, // 18
 
         // Tuesday runs
