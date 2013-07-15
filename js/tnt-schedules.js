@@ -27,7 +27,7 @@ var setupTNTSchedules = function () {
         "6/29": {event: "Group Run<br/> Antrim Deck 8:00am"}, // 2
         "7/6": {event: "Group Run<br/> Antrim Deck <b>7:00am</b>"}, //3
         "7/13": {event: "Group Run<br/> Sharon Woods 8:00am"}, // 4
-        "7/20": {event: "Group Run<br/> Antrim Deck 8:00am"}, // 5
+        "7/20": {event: "Group Run<br/> Antrim Deck <b>7:00am</b>"}, // 5
         "7/27": {event: "Group Run<br/> Sharon Woods <b>7:00am</b>", deadline: "Road Block 10am-3pm"}, // 6
         "8/3": {event: "Group Run<br/> Antrim Deck 7:00am"}, // 7
         "8/10": {event: "Group Run<br/> Sharon Woods 7:00am"}, // 8
