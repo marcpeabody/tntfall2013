@@ -7,7 +7,7 @@ var setupTNTSchedules = function () {
         rest = "Rest";
 
     TNTSchedule.CommonColumbusEvents = {
-        "8/8": {deadline: "Recommitment Forms Due"},
+        "8/22": {deadline: "Recommitment Forms Due"},
         "10/17": {deadline: "Final Balance Due"},
         "10/19": {deadline: "Inspiration Dinner"}
     };
