@@ -9,7 +9,9 @@ var setupTNTSchedules = function () {
     TNTSchedule.CommonColumbusEvents = {
         "8/22": {deadline: "Recommitment Forms Due"},
         "10/17": {deadline: "Final Balance Due"},
-        "10/19": {deadline: "Inspiration Dinner"}
+        "10/15": {deadline: "Mind over Marathon Meeting<br/>LLS Office"},
+        "10/19": {deadline: "Inspiration Dinner"},
+        "10/21": {fin: "EAT CAKE <img src='https://si0.twimg.com/profile_images/378800000139246482/d8f6127ab8ced63c801d051a33fbf696_normal.png'/>"}
     };
     TNTSchedule.CommonSavannahEvents = {
         "8/22": {deadline: "Recommitment Forms Due"},
@@ -36,10 +38,10 @@ var setupTNTSchedules = function () {
         "8/31": {event: "Group Run<br/> Antrim Deck 7:00am"}, // 11
         "9/7": {event: "Group Run<br/> Antrim Deck 7:00am"}, // 12
         "9/14": {event: "Group Run<br/> Antrim Deck 7:00am"}, // 13
-        "9/21": {event: "Group Run<br/> Sharon Woods 7:00am"}, // 14
+        "9/21": {event: "Group Run<br/> Three Creeks 7:00am"}, // 14
         "9/28": {event: "Group Run<br/> Antrim Deck 7:00am"}, // 15
-        "10/5": {event: "Group Run<br/> Antrim Deck 7:00am"}, // 16
-        "10/12": {event: "Group Run<br/> Antrim Deck 7:00am"}, // 17
+        "10/6": {event: "Group Run<br/> Antrim Deck 7:00am"}, // 16
+        "10/13": {event: "Group Run<br/> Antrim Deck 7:00am"}, // 17
         "10/20": {event: "Columbus Half and Full Marathon"}, // 18
 
         // Tuesday runs
@@ -60,7 +62,7 @@ var setupTNTSchedules = function () {
         "9/24": {event: "Group Run<br/> Antrim Deck 6:00pm"}, // 15
         "10/1": {event: "Group Run<br/> Sharon Woods 6:00pm"}, // 16
         "10/8": {event: "Group Run<br/> Antrim Deck 6:00pm"}, // 17
-        "10/15": {event: "Group Run<br/> Antrim Deck 6:00pm"}, // 17
+        "10/15": {event: "Group Run<br/> LLS office<br/> after meeting"}, // 17
 
         // Thursday runs
         "6/20": {event: "Group Run<br/> Antrim Deck 6:00pm"}, // 1
@@ -224,20 +226,20 @@ var setupTNTSchedules = function () {
         "10/2": {fin: ctStrength, pr: "and 3 miles"},
         "10/3": {fin: "30 minutes", pr: "8min at tempo"},
         "10/4": {fin: rest},
-        "10/5": {fin: "9 miles"},
+        "10/5": {fin: "30 minutes EZ"},
 
         // Week 17
-        "10/6": {fin: ctOptAero},
-        "10/7": {fin: "30 minutes EZ"},
+        "10/6": {fin: "9 miles"},
+        "10/7": {fin: ctOptAero},
         "10/8": {fin: "30 minutes", pr: "8min at tempo"},
         "10/9": {fin: ctStrength, pr: "and 3 miles"},
         "10/10": {fin: "4 miles", pr: "all at race pace"},
         "10/11": {fin: rest},
-        "10/12": {fin: "8 miles"},
+        "10/12": {fin: "2 miles EZ"},
 
         // Week 18
-        "10/13": {fin: ctOptAero},
-        "10/14": {fin: "2 miles EZ"},
+        "10/13": {fin: "8 miles"},
+        "10/14": {fin: ctOptAero},
         "10/15": {fin: "4 miles", pr: "with 4x400m"},
         "10/16": {fin: ctStrength, pr: "and 2 miles"},
         "10/17": {fin: "3 miles"},
@@ -390,20 +392,20 @@ var setupTNTSchedules = function () {
         "10/2": {fin: ctStrength, pr: "and 4 miles"},
         "10/3": {fin: "30 minutes", pr: "8min at tempo"},
         "10/4": {fin: rest},
-        "10/5": {fin: "13 miles"},
+        "10/5": {fin: "5 miles EZ"},
 
         // Week 17
-        "10/6": {fin: ctOptAero},
-        "10/7": {fin: "5 miles EZ"},
+        "10/6": {fin: "13 miles"},
+        "10/7": {fin: ctOptAero},
         "10/8": {fin: "30 minutes", pr: "8min at tempo"},
         "10/9": {fin: ctStrength, pr: "and 3 miles"},
         "10/10": {fin: "4 miles", pr: "at race pace"},
         "10/11": {fin: rest},
-        "10/12": {fin: "8 miles"},
+        "10/12": {fin: "5 miles EZ"},
 
         // Week 18
-        "10/13": {fin: ctOptAero},
-        "10/14": {fin: "5 miles EZ"},
+        "10/13": {fin: "8 miles"},
+        "10/14": {fin: ctOptAero},
         "10/15": {fin: "4 miles", pr: "with 4x400m"},
         "10/16": {fin: ctStrength, pr: "and 3 miles"},
         "10/17": {fin: rest},

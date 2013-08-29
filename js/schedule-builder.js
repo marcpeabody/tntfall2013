@@ -3,7 +3,7 @@ function buildCalendarFromSchedule(schedule) {
         startDay = new Date(2013, 5, 15), // 5,15 is July 15
         iDay = startDay,
         iMonth, iMonthDiv, iWeekDiv, iDate, iDateDiv, iScheduleKey,
-        endDay = new Date(2013, 9, 20), // 9,20 is Oct 20
+        endDay = new Date(2013, 9, 21), // 9,20 is Oct 20
         dayLength = (24 * 60 * 60 * 1000),
         calendarDiv = $(".calendar"),
         dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
@@ -140,6 +140,9 @@ function scanForPhrases() {
         }
         if (/Antrim Deck/.exec(text)) {
             $(item).html("<a href='locations.html#antrim'>" + text + "</a>")
+        }
+        if (/Three Creeks/.exec(text)) {
+            $(item).html("<a href='locations.html#threecreeks'>" + text + "</a>")
         }
         if (/Glacier Ridge/.exec(text)) {
             $(item).html("<a href='locations.html#glacier'>" + text + "</a>")
