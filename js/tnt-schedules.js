@@ -356,7 +356,7 @@ var setupTNTSchedules = function () {
         "9/4": {fin: ctStrength, pr: "and 4 miles"},
         "9/5": {fin: "45 minutes", pr: "10min at tempo"},
         "9/6": {fin: rest},
-        "9/7": {fin: "16 miles"},
+        "9/7": {fin: "14 miles"},
 
         // Week 13
         "9/8": {fin: ctOptAero},
