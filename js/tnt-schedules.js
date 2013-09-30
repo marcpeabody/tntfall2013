@@ -57,10 +57,10 @@ var setupTNTSchedules = function () {
         "8/20": {event: "Group Run<br/> Sharon Woods 6:00pm"}, // 10
         "8/27": {event: "Group Run<br/> Antrim Deck 6:00pm"}, // 11
         "9/3": {event: "Group Run<br/> Antrim Deck 6:00pm"}, // 12
-        "9/10": {event: "Group Run<br/> Sharon Woods 6:00pm"}, // 13
+        "9/10": {event: "Group Run<br/> <b>CANCELLED</b>"}, // 13
         "9/17": {event: "Group Run<br/> Antrim Deck 6:00pm"}, // 14
         "9/24": {event: "Group Run<br/> Antrim Deck 6:00pm"}, // 15
-        "10/1": {event: "Group Run<br/> Sharon Woods 6:00pm"}, // 16
+        "10/1": {event: "Group Run<br/> Sharon Woods 5:30pm"}, // 16
         "10/8": {event: "Group Run<br/> Antrim Deck 6:00pm"}, // 17
         "10/15": {event: "Group Run<br/> LLS office<br/> after meeting"}, // 17
 
